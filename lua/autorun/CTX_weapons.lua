@@ -550,6 +550,20 @@ sound.Add({
 })
 
 sound.Add({
+	name = 			"Weapon_Shotgun.Special",
+	channel = 		CHAN_STATIC, 
+	volume = 		{ 0.5, 1 },
+	pitch = 		{ 80, 90 },
+	level = 		60,
+	sound = 				{
+		"CTX_Weps/shotgun/cock1.wav",
+		"CTX_Weps/shotgun/cock2.wav",
+		"CTX_Weps/shotgun/cock3.wav",
+		"CTX_Weps/shotgun/cock4.wav",
+	}
+})
+
+sound.Add({
 	name = 			"weapons/shotgun/shotgun_cock1.wav",
 	channel = 		CHAN_STATIC,
 	volume = 		0,
@@ -1002,7 +1016,7 @@ sound.Add({
 									
 sound.Add({
 	name = 			"BaseGrenade.Explode", --This is actually the Debris flag.
-	channel = 		CHAN_WEAPON,
+	channel = 		CHAN_VOICE,
 	volume = 		1,
 	pitch = 		{ 85, 105 },
 	-- level = 		70,
@@ -1015,10 +1029,10 @@ sound.Add({
 		-- "CTX_Weps/explosions/new/rev-indoor5.wav",
 		-- "CTX_Weps/explosions/new/rev-indoor6.wav",
 		
-		"CTX_Weps/explosions/new/LFE1.wav",
-		"CTX_Weps/explosions/new/LFE2.wav",
-		"CTX_Weps/explosions/new/LFE3.wav",
-		"CTX_Weps/explosions/new/LFE4.wav",
+		"#CTX_Weps/explosions/new/LFE1.wav",
+		"#CTX_Weps/explosions/new/LFE2.wav",
+		"#CTX_Weps/explosions/new/LFE3.wav",
+		"#CTX_Weps/explosions/new/LFE4.wav",
 		-- "CTX_Weps/explosions/new/pre1.wav",
 		-- "CTX_Weps/explosions/new/pre2.wav",
 	}
